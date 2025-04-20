@@ -1,11 +1,10 @@
 # SyncChronES
-A synchronous chronological event stamping utility
-
-**SyncChronES Application Documentation**
-
-**1. Overview**
 
 SyncChronES is a Python-based application that logs mouse click events and provides automated mouse clicking functionality.
+
+**1. Why?**
+
+Made for my specific use case. Multiple systems without network connection need to start and stop a certain data recording activity at the exact same time. The software responsible for the data collection also do not all support timed-trigger. This was made to simulate the mouse click needed to trigger the recording at the exact same time. The caveat is that the system times need to be synched up, which was done by temporarily connecting them to the network for updating the time using a Simple Network Time Protocol (SNTP) client.
 
 **2. Features**
 
@@ -100,10 +99,6 @@ SyncChronES is a Python-based application that logs mouse click events and provi
 * PySide6
 * pynput
 * datetime
-* json
-* os
-* sys
-* threading
 
 **7. Installation**
 
@@ -120,3 +115,23 @@ SyncChronES is a Python-based application that logs mouse click events and provi
 4.  Use the Auto-Click Scheduler to set up automated click events.
 5.  The Help menu provides basic usage instructions.
 ****
+
+## License
+
+This project is licensed under the **MIT License**—simple, permissive, and allows wide reuse.
+
+> You are free to use, modify, and distribute this software with or without changes, provided you include the original license text.
+
+(See [LICENSE](LICENSE) file for full terms.)
+
+---
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Suggestions, bug reports, and improvements are warmly encouraged.
+
+---
+
+⭐ If you find it useful, please consider starring the repo.
