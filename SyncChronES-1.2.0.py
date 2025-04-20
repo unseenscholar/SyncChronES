@@ -751,9 +751,7 @@ class AboutDialog(QDialog):
             "<p>Version: 1.2.0</p>"
             "<p>Copyright © 2024 SyncChronES</p>"
             "<p>License: MIT</p>"
-            "<p>Creator: Viswajith S Nair</p>"
-            "<p>Email: <a href='mailto:viswajithsn@gmail.com'>viswajithsn@gmail.com</a></p>"
-        )
+            "<p>Creator: UnseenScholar</p>"        )
         
         label = QLabel(about_text)
         label.setOpenExternalLinks(True)
